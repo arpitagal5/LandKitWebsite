@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/LandKitWebsite/static/css/main.15b4a311.chunk.css",
+    "main.js": "/LandKitWebsite/static/js/main.ec84f194.chunk.js",
+    "main.js.map": "/LandKitWebsite/static/js/main.ec84f194.chunk.js.map",
+    "runtime-main.js": "/LandKitWebsite/static/js/runtime-main.c32d98a2.js",
+    "runtime-main.js.map": "/LandKitWebsite/static/js/runtime-main.c32d98a2.js.map",
+    "static/js/2.ca678c62.chunk.js": "/LandKitWebsite/static/js/2.ca678c62.chunk.js",
+    "static/js/2.ca678c62.chunk.js.map": "/LandKitWebsite/static/js/2.ca678c62.chunk.js.map",
+    "index.html": "/LandKitWebsite/index.html",
+    "static/css/main.15b4a311.chunk.css.map": "/LandKitWebsite/static/css/main.15b4a311.chunk.css.map",
+    "static/js/2.ca678c62.chunk.js.LICENSE.txt": "/LandKitWebsite/static/js/2.ca678c62.chunk.js.LICENSE.txt",
+    "static/media/01.b477545a.svg": "/LandKitWebsite/static/media/01.b477545a.svg",
+    "static/media/03.5091302a.png": "/LandKitWebsite/static/media/03.5091302a.png",
+    "static/media/13.17e2d85d.jpg": "/LandKitWebsite/static/media/13.17e2d85d.jpg",
+    "static/media/22.26b7d2db.svg": "/LandKitWebsite/static/media/22.26b7d2db.svg",
+    "static/media/23.11c88aee.svg": "/LandKitWebsite/static/media/23.11c88aee.svg",
+    "static/media/24.5fc33c7d.svg": "/LandKitWebsite/static/media/24.5fc33c7d.svg",
+    "static/media/25.bf59543b.svg": "/LandKitWebsite/static/media/25.bf59543b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c32d98a2.js",
+    "static/js/2.ca678c62.chunk.js",
+    "static/css/main.15b4a311.chunk.css",
+    "static/js/main.ec84f194.chunk.js"
+  ]
+}
