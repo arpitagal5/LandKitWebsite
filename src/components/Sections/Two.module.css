@@ -1,0 +1,36 @@
+.Introduce {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Introduce .IntroItem {
+  width: 30%;
+}
+
+.Introduce .IntroItem .Icon img {
+  width: 45px;
+}
+
+.Introduce .IntroItem .Title {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.Introduce .IntroItem .Content {
+  line-height: 1.5;
+  color: #8b9ebb;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Introduce {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Introduce .IntroItem {
+    width: 100%;
+    padding-top: 30px;
+  }
+}

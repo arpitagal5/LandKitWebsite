@@ -1,0 +1,33 @@
+.CompanyWrapper {
+    border-top: 1px solid #c2cff9;
+    border-bottom: 1px solid #c2cff9;
+    padding: 40px 0px;
+    margin-top: 100px;
+}
+
+.Company {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Company .CompanyName {
+    width: 16.6%;
+    padding: 10px 15px;
+}
+
+.Company .CompanyName img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .Company .CompanyName {
+        width: 33.33%;
+    }
+}
+
+@media only screen and (max-width: 572px) {
+    .Company .CompanyName {
+        width: 50%;
+    }
+}

@@ -1,0 +1,25 @@
+body {
+    margin: 10px 0px !important;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+* {
+    font-weight: 300;
+    box-sizing: border-box;
+}
+.Container {
+    max-width: 1000px;
+    padding: 0px 30px;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+h4,
+h3,
+p {
+    margin: 0 !important;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,100 @@
+.FormWrapper {
+    background-color: #f1f1f1;
+    padding-top: 100px;
+}
+
+.Wrapper {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Wrapper .Form {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Wrapper .Form .FormImage img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.Wrapper .Form form {
+    padding: 20px;
+}
+
+.Wrapper .Form form .SubmitButton {
+    margin-top: 15px;
+}
+
+.Wrapper .Form form .SubmitButton button {
+    border: none;
+    color: white;
+    background-color: #42ba96;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.Wrapper .Form .FormInput {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.Wrapper .Form .FormInput p {
+    font-size: 12px;
+    color: red;
+    height: 10px;
+}
+
+.Wrapper .Form .FormInput .InputItem {
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 0px;
+    margin: 10px 0px 0px;
+    font-size: 16px;
+    color: #8b9ebb;
+}
+
+.Wrapper .FormContent {
+    padding-left: 30px;
+    width: 50%;
+}
+.Wrapper .FormContent .Title h1 {
+    margin: 5px;
+}
+.Wrapper .FormContent .Text {
+    margin: 15px;
+    word-spacing: 5px;
+    color: #8b9ebb;
+}
+
+.Wrapper .FormContent .List {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Wrapper .FormContent .List .ListItem {
+    width: 50%;
+    color: #42ba96;
+    margin: 10px 0px;
+}
+
+.Wrapper .FormContent .List .ListItem i {
+    color: #42ba96;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 13px;
+    padding: 5px;
+    background-color: #e3f4f2;
+}
+

@@ -1,0 +1,88 @@
+.Welcome {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Welcome .Content {
+    width: 50%;
+}
+
+.Welcome .Content .Title h1 {
+    margin: 5px;
+}
+
+.Welcome .Content .Button {
+    padding-top: 70px;
+}
+
+.Welcome .Content .Button a {
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.Welcome .Content .Button .Dark {
+    background-color: #335eea;
+    color: white;
+    margin-right: 5px;
+}
+
+.Welcome .Content .Button .Dark i {
+    padding-left: 10px;
+}
+
+.Welcome .Content .Button .Light {
+    background-color: rgba(51, 94, 234, 0.1);
+    color: #335eea;
+}
+
+.Welcome .Image {
+    width: 50%;
+}
+
+.Welcome .Image img {
+    width: 129%;
+}
+
+@media only screen and (max-width: 992px) {
+    .Welcome .Content {
+        width: 60%;
+    }
+
+    .Welcome .Image {
+        width: 40%;
+    }
+    .Welcome .Image img {
+        width: 123%;
+    }
+    .Welcome .Content .Button {
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Welcome {
+        flex-direction: column-reverse;
+    }
+
+    .Welcome .Content {
+        width: 100%;
+    }
+
+    .Welcome .Image {
+        width: 100%;
+    }
+
+    .Welcome .Image img {
+        width: 100%;
+    }
+
+    .Welcome .Content {
+        text-align: center;
+    }
+
+    .Welcome .Content .Button .Dark i {
+        display: none;
+    }
+}

@@ -1,0 +1,54 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header .ButtonHeader a {
+    background-color: #007bff;
+    padding: 15px 20px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 400;
+    display: block;
+}
+
+.Header a {
+    color: black;
+    text-decoration: none;
+}
+
+.Header .ListItems {
+    padding: 0px;
+    display: flex;
+    margin: 0px;
+}
+
+.Header .ListItems > li > a {
+    color: #506690;
+    font-weight: 400;
+}
+
+.Header .ListItems li {
+    padding: 20px;
+    position: relative;
+}
+
+@media only screen and (max-width: 992px) {
+    .Header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .Navigation .ListItems {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .Header {
+        margin-top: 30px;
+    }
+}

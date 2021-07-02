@@ -1,0 +1,70 @@
+.FooterSection {
+    background-color: #f1f4f8;
+    padding-top: 100px;
+}
+
+.Footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0px;
+    justify-content: space-evenly;
+}
+
+.Footer .SocialMedia {
+    width: 30%;
+    padding-left: 40px;
+}
+
+.Footer .SocialMedia .Text {
+    margin: 15px 0px;
+    color: #506690;
+}
+
+.Footer .SocialMedia .LogoImage img {
+    padding-right: 10px;
+}
+
+.Footer .FooterInfo {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Footer .FooterInfo .FooterInfoList {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.Footer .FooterInfoList .InfoTitle {
+    color: #506690;
+    font-size: 13px;
+}
+
+.Footer .FooterInfoList .Item {
+    margin: 20px 0px;
+}
+
+.Footer .FooterInfoList .Item a {
+    color: #869ab8;
+}
+
+@media only screen and (max-width: 992px) {
+    .Footer .FooterInfo .FooterInfoList {
+        width: 50%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .Footer {
+        flex-direction: column;
+    }
+
+    .Footer .FooterInfo {
+        width: 100%;
+    }
+
+    .Footer .SocialMedia {
+        padding: 0px;
+    }
+}
